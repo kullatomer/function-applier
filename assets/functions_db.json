@@ -1,0 +1,42 @@
+[{
+		"id": "1",
+		"name": "add",
+		"params": [{"index": "0", "name": "num1", "type": "number"}, {"index": "1", "name": "num2", "type": "number"}],
+		"body": "return num1+num2;",
+		"returnType": "number"
+	},
+	{
+		"id": "2",
+		"name": "dec",
+		"params": [{"index": "0", "name": "num1", "type": "number"}, {"index": "1", "name": "num2", "type": "number"}],
+		"body": "return num1-num2;",
+		"returnType": "number"
+	},
+	{
+		"id": "3",
+		"name": "mul",
+		"params": [{"index": "0", "name": "num1", "type": "number"}, {"index": "1", "name": "num2", "type": "number"}],
+		"body": "return num1*num2;",
+		"returnType": "number"
+	},
+	{
+		"id": "4",
+		"name": "concat",
+		"params": [{"index": "0", "name": "str1", "type": "string"}, 
+				   {"index": "1", "name": "str2", "type": "string"},
+				   {"index": "2", "name": "reverse", "type": "boolean"}
+				   ],
+		"body": "if(reverse) {return str2+str1;} else {return str1+str2;}",
+		"returnType": "string"
+		
+	},
+	{
+		"id": "5",
+		"name": "image-display",
+		"params": [{"index": "0", "name": "image", "type": "file"}],
+		"body": "return image;",
+		"returnType": "image"
+		
+	}
+
+]
